@@ -1,0 +1,165 @@
+.Center {
+    margin: auto;
+    width: 600px;
+    border: 5px solid #000000;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    background: url(textures/wood.jpg);
+    background-repeat:repeat;
+    border-radius: 15px;
+    filter: drop-shadow(0px 0px 7px);
+    
+    }
+
+  
+
+    .Key {
+        position: relative;
+        right: -45%;
+        width: 10px;
+        height: 120px;
+        border: 5px solid #000000;
+        border-radius: 0px 0px 10px 10px;
+        padding: 10px;
+        border-style: none;
+        border-width: 1px;
+        background: url(textures/gold.jpg);
+        filter:drop-shadow(0px 0px 15px);
+        cursor: pointer;
+                       
+    } 
+
+    
+
+
+    .Key:active {
+        
+        filter:drop-shadow(0px 0px 18px);
+        transform: scale(99%);
+    }
+
+    .Replay {
+        opacity: 0%;
+        transform:translateY(-20px);
+        transition: all 1s;;
+        position: relative;
+        right:-80%;
+         width: fit-content;  
+         padding-inline: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 5px #999;
+        cursor:pointer;
+        
+        }
+        .Replay:hover {
+            background-color: #558e3e;
+            transition: all 0s;
+            
+        }
+        .Replay:active {
+        background-color: #1c8837;
+       }
+
+      
+.TextDiv {
+    transition: all 1s;
+    opacity: 0%;
+    position:absolute;
+    margin-top: 50px;
+    width: 100%;
+    right:-7px;
+    border-style: none;
+    word-wrap: break-word;
+    
+}
+
+.MorseText {
+    font-size: 30px;
+}
+
+.Translator {
+    
+    background-color: rgb(231, 248, 255);
+    margin: auto;
+    position: relative;
+    min-height: 200px;
+    width: 650px;
+    margin-top: 180px;
+    border-style: none;
+    height:  auto;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 8px;
+    filter: drop-shadow(0px 0px 7px);
+
+    
+}
+
+.InputField {
+    margin-block: 10px;
+    width: 500px;
+    height:fit-content;
+}
+
+
+
+.ButtonTranslate {
+    opacity: 100%;
+    
+    transition:opacity 1s;
+    position: relative;
+    right:-40%;
+     width: fit-content;  
+     padding-inline: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    cursor:pointer;
+    
+    }
+    .ButtonTranslate:hover {
+        background-color: #558e3e;
+        transition: all 0s;
+        
+    }
+    .ButtonTranslate:active {
+    background-color: #1c8837;
+    transform: translateY(5px);
+    }
+
+.Translation {
+    
+    position: relative;
+    margin-top: 30px;
+    opacity: 0;
+    font-size: 30px;
+    filter: drop-shadow(5px 5px 5px);
+    height: fit-content;
+    border-style: none;
+    padding: 0px;
+    transition: opacity 1s;
+    
+}
+
+.PlayTranslation {
+    float:right;
+    margin:0px;
+    position: relative;
+    top:0px;
+    font-size: 20px;
+    background: rgba(0, 0, 255, 0);
+    opacity: 100%;
+    }
